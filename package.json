@@ -4,10 +4,11 @@
   "description": "template for react projects",
   "main": "src/index.js",
   "scripts": {
-    "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html",
-    "clear": "rm -rf dist/*"
+    "start": "parcel serve ./src/index.html --dist-dir dev",
+    "build": "parcel build ./src/index.html --dist-dir dist",
+    "clear": "rm -rf dist/* && rm -rf dev/*"
   },
+  "browserslist": "> 0.2%",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/airgead73/react-parcel.git"

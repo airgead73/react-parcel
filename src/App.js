@@ -1,11 +1,16 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
   return (
-    <div>
-      <h1>React App</h1>
+    <div className="App">
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
     </div>
-  )
+  );
 }
 
 export default App;
