@@ -1,2 +1,2 @@
 # React-Parcel template
-## v1
+## v2
